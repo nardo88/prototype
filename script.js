@@ -12,7 +12,7 @@ gsap.timeline({
         trigger: '.staps__wrapper',
         start: 'top top',
         end : '600% top',
-        scrub: true,
+        scrub: 0.5,
         pin: true,
         markers: true
 
